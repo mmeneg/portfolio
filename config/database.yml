@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
+# Changed to deploy to Heroku
+#  database: db/production.sqlite3
+  adapter: postgresql
   database: db/production.sqlite3
