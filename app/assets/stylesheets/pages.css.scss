@@ -2,22 +2,74 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .jumbotron {
-  background-image : url("https://www.dropbox.com/s/z9u23j5j0p93mc5/photo-1452193550078-d7e45d3b834d_new.jpeg?raw=1");
+  background-image : url("https://www.dropbox.com/s/fi2cm2ggj5yxka9/venice.jpg?raw=1");
   background-size: cover;
-  height: 500px;
-  color: #C1B0A6;
-  //text-shadow: 0 2px 3px rgb(244,244,244);
+  background-position: center;
+  height: 700px;
+  color: white;
+  margin: 0;
 }
 
 footer {
-  background-color: #142226;
+  background-color: #A56158;
+  height: 100px;
 }
 
 footer img {
   width: 32px;
   height: 32px;
+  margin: 0 5px;
 }
 
 footer p {
-  color: #5A7542;
+  color: #F3D8CC;
+}
+
+footer .row {
+  margin-top: 15px;
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-default {
+  background-color: #4B6D72;
+}
+
+.navbar-default .navbar-brand {
+  color: #D8B4AB;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #D8B4AB;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+.btn-default {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 0;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+  background-color: rgba(0,0,0,0.1);
+  color: #F3D8CC;
+  border-color: #F3D8CC;
+}
+
+.btn-default:active:focus {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-color: #F3D8CC;
 }
