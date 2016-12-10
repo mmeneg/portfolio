@@ -10,7 +10,32 @@
 </head>
 <body>
 
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <%= link_to "Mau", root_path, class: "navbar-brand" %>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><%= link_to "Projects", portfolio_path %></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+    </div>
+  </nav>
+</header>
+
 <%= yield %>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Mau</p>
+      <div class="col-sm-4 col-sm-offset-4">
+        <a target="_blank" href="#"><img src="https://www.dropbox.com/s/xqtou7i49jkbri8/facebook.svg?raw=1"></a>
+        <a target="_blank" href="#"><img src="https://www.dropbox.com/s/zsvimlz6gg7ldhr/linedin.svg?raw=1"></a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>

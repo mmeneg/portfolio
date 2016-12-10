@@ -73,3 +73,21 @@ footer .row {
   color: white;
   border-color: #F3D8CC;
 }
+
+main .container {
+  margin-top: 20px;
+  height: 80vh;
+}
+
+.unslider-nav ol li {
+  border-color: #4B6D72;
+  opacity: .4;
+  width: 8px;
+  height: 8px;
+}
+
+.unslider-nav ol li.unslider-active {
+  border-color: #4B6D72;
+  background-color: #4B6D72;
+  opacity: 1;
+}
