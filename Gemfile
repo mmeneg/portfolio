@@ -43,3 +43,6 @@ gem 'spring',        group: :development
 
 # Add to deploy to Heroku
 gem 'rails_12factor', group: :production
+
+# Add unslider JQuery plugin for Rails asset pipeline
+gem 'jquery-unslider-rails', '~> 2.0', '>= 2.0.1'
