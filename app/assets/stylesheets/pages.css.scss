@@ -91,3 +91,9 @@ main .container {
   background-color: #4B6D72;
   opacity: 1;
 }
+
+main #img-about {
+  max-height: 100px;
+  max-width: 100px;
+  margin: auto;
+}
